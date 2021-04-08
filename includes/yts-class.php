@@ -50,7 +50,7 @@
       public function form($instance){
           $title = ! empty($instance['title']) ? $instance['title'] : esc_html__('Youtube Subs', 'yts_domain');
 
-          $channel = ! empty($instance['channel']) ? $instance['channel'] : esc_html__('techweb', 'yts_domain');
+          $channel = ! empty($instance['channel']) ? $instance['channel'] : esc_html__('GoogleDevelopers', 'yts_domain');
 
           $layout = ! empty($instance['layout']) ? $instance['layout'] : esc_html__('default', 'yts_domain');
 
